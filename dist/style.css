@@ -1,0 +1,70 @@
+body {
+    background-color: gray;
+}
+
+header {
+    background-color: indigo;
+    height: 300px;
+}
+
+#content {
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#home {
+    height: 100px;
+    width: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#menu {
+    height: 100px;
+    width: 100px;
+    background-color: lightpink;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#contact {
+    height: 100px;
+    width: 100px;
+    background-color: magenta;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#name {
+    height: 100px;
+    width: 400px;
+    background-color: maroon;
+}
+
+#info {
+    height: 400px;
+    width: 400px;
+    background-color: maroon;
+}
+
+#hours {
+    height: 400px;
+    width: 400px;
+    background-color: maroon;
+}
+
+#location {
+    height: 400px;
+    width: 400px;
+    background-color: maroon;
+}

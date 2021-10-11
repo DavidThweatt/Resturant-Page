@@ -7,7 +7,9 @@ export function loadHeader() {
             const home_tab = document.createElement('div');
             home_tab.setAttribute('id','home');
                 const home_paragraph = document.createElement('p');
+                home_paragraph.setAttribute('class', 'navPara');
                     home_paragraph.textContent = "Home";
+                    home_tab.setAttribute('class', 'tab-target');
 
                     home_tab.append(home_paragraph);
 
@@ -15,7 +17,9 @@ export function loadHeader() {
             const menu_tab = document.createElement('div');
             menu_tab.setAttribute('id','menu');
                 const menu_paragraph = document.createElement('p');
+                menu_paragraph.setAttribute('class', 'navPara');
                     menu_paragraph.textContent = "Menu";
+                    menu_tab.setAttribute('class', 'tab-target');
 
                     menu_tab.append(menu_paragraph);
 
@@ -23,11 +27,15 @@ export function loadHeader() {
             const contact_tab = document.createElement('div');
             contact_tab.setAttribute('id','contact');
                 const contact_paragraph = document.createElement('p');
+                contact_paragraph.setAttribute('class', 'navPara');
                     contact_paragraph.textContent = "Contact";
+                    contact_tab.setAttribute('class', 'tab-target');
 
                     contact_tab.append(contact_paragraph);
+                    
 
         const nav = document.createElement('div');
+        nav.setAttribute('id', 'nav');
         nav.append(home_tab, menu_tab, contact_tab);
 
         //header
